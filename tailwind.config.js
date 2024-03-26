@@ -12,6 +12,7 @@ module.exports = {
     './app/**/*.{ts,tsx,vue}',
     './src/**/*.{ts,tsx,vue}'
   ],
+  // content: ['.src/renderer/index.html', './src/renderer/src/*/*.{vue,js,ts,jsx,tsx}'],
 
   theme: {
     container: {
