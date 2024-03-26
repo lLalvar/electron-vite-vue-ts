@@ -1,0 +1,20 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "sash.hoverBorder": "#88d7ca",
+    "statusBar.background": "#62cab9",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#3fbaa6",
+    "statusBarItem.remoteBackground": "#62cab9",
+    "statusBarItem.remoteForeground": "#15202b"
+  },
+  "peacock.color": "#62cab9"
+}
