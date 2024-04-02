@@ -28,7 +28,13 @@ module.exports = {
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
+        'background-secondary': 'hsl(var(--background-secondary))',
         foreground: 'hsl(var(--foreground))',
+        selection: 'hsl(var(--selection))',
+        fail: 'hsl(var(--fail))',
+        warning: 'hsl(var(--warning))',
+        'button-disabled': 'hsl(var(--button-disabled))',
+        'button-text': 'hsl(var(--button-text))',
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))'
@@ -63,6 +69,11 @@ module.exports = {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)'
+      },
+      boxShadow: {
+        'inner-md': 'inset 0 0 8px 0 rgba(0, 0, 0, 0.8)',
+        'inner-sm': 'inset 0 1px 2px 0px rgba(0, 0, 0, 1), inset 0 -1px 2px 0 rgba(0, 0, 0, 0.3)'
+        // 'outer-and-inner': '0 0 3px 0px rgba(0, 0, 0, 0.8), inset 0 0 3px 0px rgba(0, 0, 0, 0.8)'
       },
       keyframes: {
         'accordion-down': {
