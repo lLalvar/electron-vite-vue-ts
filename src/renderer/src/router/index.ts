@@ -1,19 +1,28 @@
-import App from '@renderer/App.vue'
-import SignIn from '@renderer/views/SignIn.vue'
+// import App from '@renderer/App.vue'
+import MainView from '@renderer/views/MainView.vue'
+import MonitorView from '@renderer/views/MonitorView.vue'
+import SignInView from '@renderer/views/SignInView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
+  // history: createMemoryHistory(),
+
   routes: [
     {
       path: '/',
-      name: 'app',
-      component: App
+      name: 'main',
+      component: MainView
     },
     {
       path: '/sign-in',
       name: 'sign-in',
-      component: SignIn
+      component: SignInView
+    },
+    {
+      path: '/monitor',
+      name: 'monitor',
+      component: MonitorView
     }
   ]
 })

@@ -8,7 +8,7 @@ export const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          'bg-background-secondary text-button-text hover:bg-background-secondary/90 shadow-lg shadow-md shadow-black/20 bg-gradient-to-b from-background-secondary from-85% via-background-secondary to-black/20',
+          'text-button-text hover:opacity-90 shadow-lg shadow-md transition-opacity  shadow-black/20 bg-gradient-to-b from-background-secondary from-85% via-background-secondary to-black/20',
         primary: 'bg-selection text-black hover:bg-selection/90 shadow-inner-sm',
         destructive: 'bg-destructive text-destructive-foreground hover:bg-destructive/90',
         secondary: 'bg-background hover:bg-background/80',
